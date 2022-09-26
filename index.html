@@ -14,7 +14,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-5">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#" style="color: white">
                     <img src="codoacodo.png" alt="Logo codo a codo" width="100" height="60">Conf Bs As</a>
@@ -24,7 +24,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <ul class="navbar-nav position-absolute top-50 end-0 translate-middle-y px-5">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#" style="color: white"
                                 class="font-weight-bold">La
@@ -40,8 +40,7 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#" style="color: lightgrey" class="font-weight-bold">Conviértete
-                                en
-                                orador</a>
+                                en orador</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#" style="color: rgb(1, 189, 1)" class="font-weight-bold">Comprar
@@ -66,8 +65,8 @@
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="ba1.jpg" class="d-block wy-50 wx-100 p-0 m-0" alt="Bs As">
-                        <div class="carousel-caption d-none d-md-block" style="text-align: right">
+                        <img src="ba1.jpg" class="d-block w-100 p-0 m-0" alt="Bs As">
+                        <div class="carousel-caption d-none d-md-block" style="text-align: right;">
                             <h2>Conf Bs As</h2>
                             <p>Bs As llega por primera vez a Argentina. Un evento
                                 para compartir con <br>
@@ -176,8 +175,28 @@
         </div>
 
         <br>
+        <div>
+            <div class="container-fluid">
+                <p class="m-0" style=text-align:center>CONVIÉRTETE EN UN</p>
+                <h3 class="m-0" style="font-style: bold; text-align:center">ORADOR</h3> <br>
+                <p style=text-align:center>Anótate como orador para dar una charla ignite. ¡Cuéntanos de qué quieres
+                    hablar!</p>
+            </div>
+            <div>
+                <form class="form">
+                    <label><input type="text" name="Nombre" placeholder="Nombre"></label>
+                    <label><input type="text" name="Apellido" placeholder="Apellido"></label> 
+                    <textarea name="Tema" placeholder="¿Sobre qué quieres hablar?"></textarea>
+                    <p class="text-secondary">Recuerda incluir un título para tu charla</p>
+                    <button type="submit" class="btn btn-success bg-success">Enviar</button>
+                </form>
+            </div>
+        </div>
+        </div>
 
-        <div id="info" class="container-fluid text-left bg-dark p-0 m-0">
+        <br>
+
+        <div id="info" class="container-fluid text-left bg-dark ">
             <div class="row">
                 <div class="col">
                     <img id="honolulu" src="honolulu.jpg" alt="Honolulu">
@@ -195,35 +214,7 @@
         </div>
 
         <br>
-        <div class="container-fluid">
-            <p class="m-0" style=text-align:center>CONVIÉRTETE EN UN</p>
-            <h3 class="m-0" style="font-style: bold; text-align:center">ORADOR</h3>
-            <p style=text-align:center>Anótate como orador para dar una charla ignite. ¡Cuéntanos de qué quieres
-                hablar!</p>
-            <br>
-        </div>
 
-        <div conteiner-fluid>
-            <div class="row mx-auto" style="width: 500px">
-                <div class="col">
-                    <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
-                </div>
-                <div class="col">
-                    <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
-                </div>
-            </div>
-            <br>
-            <div class="mx-auto" style="width: 480px">
-                <input type="text" class="form-control " placeholder="¿Sobre qué quieres hablar?"
-                    aria-label="Last name">
-                <p class="text-secondary">Recuerda incluir un título para tu charla.</p>
-                <br>
-            </div>
-            <div class="mx-auto" style="width: 60px">
-                <button class="btn btn-success bg-success" type="button">Enviar</button>
-            </div>
-        </div>
-        <br>
     </main>
 
     <footer style="background-color: rgb(39, 39, 60);">
